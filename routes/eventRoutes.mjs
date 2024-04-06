@@ -1,5 +1,6 @@
 import express from "express";
 import ec from "../controllers/eventsController.mjs";
+import passport from "passport";
 
 
 const router = express.Router();
